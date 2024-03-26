@@ -34,10 +34,8 @@ module.exports = {
         social4: "url(../assets/icons/social/facebook.svg)",
         call: "url(../assets/icons/call-me.svg)",
         shooting1: "url(../assets/images/about/shooting-bg1.png)",
-        shooting2: "url(../assets/images/about/shooting-bg2.png)",
-        content: {
-          shooting1: "url(../assets/images/about/shooting-bg1.png",
-        },
+        success: "url(../assets/images/success/success-cell-bg.png)",
+        help: "url(../assets/images/help/help-bg.png)",
       },
       writingMode: {
         "writing-mode": "vertical-rl",
