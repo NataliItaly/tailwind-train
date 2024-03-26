@@ -33,9 +33,11 @@ module.exports = {
         social3: "url(../assets/icons/social/instagram.svg)",
         social4: "url(../assets/icons/social/facebook.svg)",
         call: "url(../assets/icons/call-me.svg)",
-        shooting1: "url(../assets/images/about/shooting-bg1.png)",
+        shootingList: "url(../assets/images/about/shooting-bg1.png)",
         success: "url(../assets/images/success/success-cell-bg.png)",
         help: "url(../assets/images/help/help-bg.png)",
+        memory: "linear-gradient(#71d154 460px, #fff 460px);",
+        memoryList: "url(../assets/images/memory/memory-bg.png)",
       },
       writingMode: {
         "writing-mode": "vertical-rl",
