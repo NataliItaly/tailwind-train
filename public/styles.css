@@ -801,6 +801,38 @@ video {
   top: 11rem;
 }
 
+.bottom-7{
+  bottom: 1.75rem;
+}
+
+.-bottom-7{
+  bottom: -1.75rem;
+}
+
+.-bottom-10{
+  bottom: -2.5rem;
+}
+
+.top-\[500px\]{
+  top: 500px;
+}
+
+.top-\[450px\]{
+  top: 450px;
+}
+
+.top-\[400px\]{
+  top: 400px;
+}
+
+.top-\[426px\]{
+  top: 426px;
+}
+
+.top-\[435px\]{
+  top: 435px;
+}
+
 .z-0{
   z-index: 0;
 }
@@ -1049,6 +1081,21 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.translate-x-\[-50\%\]{
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-x-1\/2{
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-1\/2{
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .rotate-180{
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1122,6 +1169,10 @@ video {
   gap: 2rem;
 }
 
+.gap-5{
+  gap: 1.25rem;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -1190,6 +1241,11 @@ video {
 .bg-font-color-2{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-font-secondary-input{
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 92 106 / var(--tw-bg-opacity));
 }
 
 .bg-hero{
@@ -1381,6 +1437,10 @@ video {
 
 .pt-5{
   padding-top: 1.25rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
 }
 
 .font-text-title{
