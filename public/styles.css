@@ -633,6 +633,12 @@ video {
   line-height: 1;
 }
 
+.section__title-s{
+  font-family: IBM Plex Mono;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .slider__btn{
   display: flex;
   height: 4rem;
@@ -678,6 +684,13 @@ video {
   color: rgb(196 192 199 / var(--tw-text-opacity));
 }
 
+.img{
+  height: auto;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .wrapper__img-b{
   border-radius: 1rem;
   --tw-bg-opacity: 1;
@@ -696,6 +709,42 @@ video {
   font-family: IBM Plex Mono;
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.design-1-block{
+  position: relative;
+  border-radius: 0.25rem;
+}
+
+.design-1-block::before{
+  position: absolute;
+  top: -2.5rem;
+  right: -4rem;
+  z-index: 0;
+  display: block;
+  aspect-ratio: 1 / 1;
+  width: 33.333333%;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 222 186 / var(--tw-bg-opacity));
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.design-1-block::after{
+  position: absolute;
+  bottom: -2.5rem;
+  left: -2.5rem;
+  z-index: 0;
+  display: block;
+  aspect-ratio: 1 / 1;
+  height: 50%;
+  width: 66.666667%;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-content: '';
+  content: var(--tw-content);
 }
 
 .design__list{
@@ -1358,7 +1407,7 @@ video {
 }
 
 .bg-hero{
-  background-image: url('../assets/images/home/start-screen-bg.png');
+  background-image: url('../assets/images/home-page/home/start-screen-bg.png');
 }
 
 .bg-memory{
@@ -1548,11 +1597,6 @@ video {
   font-family: IBM Plex Mono;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1625,24 +1669,9 @@ video {
   left: -10rem;
 }
 
-.before\:-right-16::before{
-  content: var(--tw-content);
-  right: -4rem;
-}
-
-.before\:-top-10::before{
-  content: var(--tw-content);
-  top: -2.5rem;
-}
-
 .before\:z-0::before{
   content: var(--tw-content);
   z-index: 0;
-}
-
-.before\:block::before{
-  content: var(--tw-content);
-  display: block;
 }
 
 .before\:aspect-square::before{
@@ -1650,40 +1679,24 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.before\:w-1\/3::before{
-  content: var(--tw-content);
-  width: 33.333333%;
-}
-
 .before\:w-\[500px\]::before{
   content: var(--tw-content);
   width: 500px;
 }
 
-.before\:rounded::before{
-  content: var(--tw-content);
-  border-radius: 0.25rem;
-}
-
-.before\:bg-\[\#EDDEBA\]::before{
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(237 222 186 / var(--tw-bg-opacity));
-}
-
 .before\:bg-help::before{
   content: var(--tw-content);
-  background-image: url(../assets/images/help/help-bg.png);
+  background-image: url(../assets/images/home-page/help/help-bg.png);
 }
 
 .before\:bg-memoryList::before{
   content: var(--tw-content);
-  background-image: url(../assets/images/memory/memory-bg.png);
+  background-image: url(../assets/images/home-page/memory/memory-bg.png);
 }
 
 .before\:bg-shootingList::before{
   content: var(--tw-content);
-  background-image: url(../assets/images/about/shooting-bg1.png);
+  background-image: url(../assets/images/home-page/about/shooting-bg1.png);
 }
 
 .before\:content-\[\'\'\]::before{
@@ -1694,16 +1707,6 @@ video {
 .after\:absolute::after{
   content: var(--tw-content);
   position: absolute;
-}
-
-.after\:-bottom-10::after{
-  content: var(--tw-content);
-  bottom: -2.5rem;
-}
-
-.after\:-left-10::after{
-  content: var(--tw-content);
-  left: -2.5rem;
 }
 
 .after\:bottom-0::after{
@@ -1721,24 +1724,9 @@ video {
   z-index: 0;
 }
 
-.after\:block::after{
-  content: var(--tw-content);
-  display: block;
-}
-
 .after\:aspect-square::after{
   content: var(--tw-content);
   aspect-ratio: 1 / 1;
-}
-
-.after\:h-1\/2::after{
-  content: var(--tw-content);
-  height: 50%;
-}
-
-.after\:w-2\/3::after{
-  content: var(--tw-content);
-  width: 66.666667%;
 }
 
 .after\:w-\[500px\]::after{
@@ -1746,20 +1734,9 @@ video {
   width: 500px;
 }
 
-.after\:rounded::after{
-  content: var(--tw-content);
-  border-radius: 0.25rem;
-}
-
-.after\:bg-font-color-2::after{
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .after\:bg-success::after{
   content: var(--tw-content);
-  background-image: url(../assets/images/success/success-cell-bg.png);
+  background-image: url(../assets/images/home-page/success/success-cell-bg.png);
 }
 
 .after\:content-\[\'\'\]::after{
