@@ -6,13 +6,25 @@
 
 @layer components {
   .header__link {
-    @apply text-font-color-1;
+    @apply text-font-links text-lg block border-b border-b-[transparent] py-1 px-3 transition-all hover:text-btn-bg-hover;
+  }
+  .header__link_current {
+    @apply border-b border-b-font-links pointer-events-none hover:text-font-links;
+  }
+  .section {
+    @apply mb-28;
   }
   .section__header {
     @apply mb-16;
   }
   .section__title {
     @apply font-text-title text-8xl mb-4 font-text-title;
+  }
+  .slider__btn {
+    @apply w-16 h-16 rounded-full border-2 border-font-color-2 flex justify-center items-center;
+  }
+  .btn {
+    @apply bg-brand-1 text-font-color-2 rounded border border-font-color-2 py-5 px-24 transition-all hover:bg-btn-bg-hover;
   }
   .see-more-btn {
     @apply text-font-input font-text-title text-4xl block  absolute;
@@ -37,5 +49,20 @@
   }
   .design__description {
     @apply flex justify-between items-center mb-6;
+  }
+  .wrapper__input {
+    @apply mb-8;
+  }
+  .form__label {
+    @apply block mb-1 text-font-color-1;
+  }
+  .form__input {
+    @apply block w-full px-9 py-4 text-font-links placeholder-font-disabled-input border border-font-disabled-input rounded outline-brand-1 focus-visible:border-font-secondary-input;
+  }
+  .wrapper__input {
+    @apply mb-7;
+  }
+  .text__p {
+    @apply mb-7;
   }
 }

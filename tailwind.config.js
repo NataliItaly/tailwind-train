@@ -13,7 +13,7 @@ module.exports = {
       "font-links": "#3B1157",
       "font-input": "#c4c0c7",
       "font-secondary-input": "#645c6a",
-      "font-disabled-input": "#f8f7f9",
+      "font-disabled-input": "#c7bcd1",
       "btn-bg-hover": "#9932cc",
       "btn-bg-focus": "#62228D",
     },
