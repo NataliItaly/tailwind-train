@@ -30,10 +30,10 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('../assets/images/home-page/home/start-screen-bg.png')",
-        social1: "url(../assets/icons/social/watsapp.svg)",
+        /* social1: "url(../assets/icons/social/watsapp.svg)",
         social2: "url(../assets/icons/social/tik-tok.svg)",
         social3: "url(../assets/icons/social/instagram.svg)",
-        social4: "url(../assets/icons/social/facebook.svg)",
+        social4: "url(../assets/icons/social/facebook.svg)", */
         call: "url(../assets/icons/call-me.svg)",
         shootingList: "url(../assets/images/home-page/about/shooting-bg1.png)",
         success: "url(../assets/images/home-page/success/success-cell-bg.png)",

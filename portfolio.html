@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -55,7 +55,7 @@
           class="call flex w-56 gap-2 absolute bottom-20 right-5 no-underline text-font-color-1"
         >
           <div
-            class="flex flex-col justify-center text-xs bg-font-color-2 px-3 py-2 rounded transition-all hover:shadow"
+            class="flex flex-col justify-center text-xs bg-font-color-2 px-3 py-2 rounded transition-all duration-200 hover:shadow"
           >
             Hast Du Fragen? Schreib <br />
             <span class="font-bold">mir bei WhatsApp!</span>
@@ -70,35 +70,61 @@
         </a>
         <div class="container relative">
           <ul
-            class="social flex flex-col items-center gap-6 absolute -top-16 right-0"
+            class="social flex flex-col items-center gap-6 absolute top-0 right-0"
           >
             <li>
               <a
                 href=""
-                class="block text-font-color-2 pt-5 pb-2 bg-social1 bg-no-repeat bg-top [writing-mode:vertical-lr]"
-                >+49 1577 3999 273</a
+                class="block text-font-color-2 p-3 bg-social1 bg-no-repeat bg-top [writing-mode:vertical-lr]"
               >
+                <svg
+                  class="w-5 h-5 text-font-color-2 hover:text-font-disabled-input"
+                >
+                  <use
+                    class="transition-all duration-200"
+                    href="./assets/icons/icons-sprite.svg#tel"
+                  ></use>
+                </svg>
+              </a>
             </li>
             <li>
               <a
                 href=""
-                class="block text-font-color-2 pt-5 pb-2 bg-social2 bg-no-repeat bg-top [writing-mode:vertical-lr]"
-                >@fokuz.photo</a
+                class="block text-font-color-2 p-3 bg-social2 bg-no-repeat bg-top [writing-mode:vertical-lr]"
               >
+                <svg class="w-5 h-5 hover:text-font-disabled-input">
+                  <use
+                    class="transition-all duration-200"
+                    href="./assets/icons/icons-sprite.svg#pinterest"
+                  ></use>
+                </svg>
+              </a>
             </li>
             <li>
               <a
                 href=""
-                class="block text-font-color-2 pt-5 pb-2 bg-social3 bg-no-repeat bg-top [writing-mode:vertical-lr]"
-                >@fokuz.photo</a
+                class="block text-font-color-2 p-3 bg-social3 bg-no-repeat bg-top [writing-mode:vertical-lr]"
               >
+                <svg class="w-5 h-5 hover:text-font-disabled-input">
+                  <use
+                    class="transition-all duration-200"
+                    href="./assets/icons/icons-sprite.svg#instagram"
+                  ></use>
+                </svg>
+              </a>
             </li>
             <li>
               <a
                 href=""
-                class="block text-font-color-2 pt-5 pb-2 bg-social4 bg-no-repeat bg-top [writing-mode:vertical-lr]"
-                >@fokuz.photo</a
+                class="block text-font-color-2 p-3 bg-social4 bg-no-repeat bg-top [writing-mode:vertical-lr]"
               >
+                <svg class="w-5 h-5 hover:text-font-disabled-input">
+                  <use
+                    class="transition-all duration-200"
+                    href="./assets/icons/icons-sprite.svg#facebook"
+                  ></use>
+                </svg>
+              </a>
             </li>
           </ul>
           <div class="section__header mb-0">
@@ -120,7 +146,7 @@
           </div>
         </div>
       </section>
-      <section class="section bg-brand-3 pb-80">
+      <section class="section bg-brand-3 pb-80 mb-0">
         <div class="section__subsection">
           <div class="container max-w-[1160px] px-0">
             <div class="design-2-block">
@@ -241,7 +267,7 @@
       </section>
       <section class="section bg-brand-2 pb-32">
         <div
-          class="container bg-font-color-2 rounded-2xl pt-24 relative -top-8 px-14 pb-24 max-w-[1160px]"
+          class="container bg-font-color-2 pt-24 relative px-14 pb-24 max-w-[1160px]"
         >
           <div
             class="bg-brand-2 text-font-color-2 rounded-2xl flex justify-center gap-14 pt-12 px-8 pb-52 relative"
@@ -330,29 +356,59 @@
               </div>
               <div class="slider__nav w-40 absolute left-0 bottom-10 z-10">
                 <div class="flex justify-around mb-4">
-                  <button class="slider__btn">
-                    <img
+                  <button
+                    class="group slider__btn border-font-color-1 hover:border-btn-bg-hover transition-all duration-200"
+                  >
+                    <svg class="w-4 h-4">
+                      <use
+                        class="text-font-color-1 group-hover:text-btn-bg-hover transition-all duration-200"
+                        href="./assets/icons/icons-sprite.svg#slider-arrow"
+                      ></use>
+                    </svg>
+                    <!-- <img
                       src="./assets/icons/slider-arrow.svg"
                       alt="view left"
                       class="w-6"
-                    />
+                    /> -->
                   </button>
-                  <button class="slider__btn">
-                    <img
+                  <button
+                    class="slider__btn group border-font-color-1 hover:border-btn-bg-hover transition-all duration-200"
+                  >
+                    <svg class="w-4 h-4 rotate-180">
+                      <use
+                        class="text-font-color-1 group-hover:text-btn-bg-hover transition-all duration-200"
+                        href="./assets/icons/icons-sprite.svg#slider-arrow"
+                      ></use>
+                    </svg>
+                    <!-- <img
                       src="./assets/icons/slider-arrow.svg"
                       alt="view right"
                       class="w-6 rotate-180"
-                    />
+                    /> -->
                   </button>
                 </div>
                 <div class="slider__pagination flex justify-between gap-5">
-                  <span class="slider__bullet bg-font-color-1"></span
-                  ><span class="slider__bullet bg-font-color-1"></span
-                  ><span class="slider__bullet bg-font-color-1"></span
-                  ><span class="slider__bullet bg-font-color-1"></span
-                  ><span class="slider__bullet bg-font-color-1"></span>
-                  <span class="slider__bullet bg-font-color-1"></span
-                  ><span class="slider__bullet bg-font-color-1"></span>
+                  <span
+                    class="slider__bullet bg-font-color-1 cursor-pointer hover:bg-btn-bg-hover transition-all duration-200"
+                  ></span>
+                  <span
+                    class="slider__bullet bg-font-color-1 cursor-pointer hover:bg-btn-bg-hover transition-all duration-200"
+                  ></span>
+                  <span
+                    class="slider__bullet bg-font-color-1 cursor-pointer hover:bg-btn-bg-hover transition-all duration-200"
+                  ></span>
+                  <span
+                    class="slider__bullet bg-font-color-1 cursor-pointer hover:bg-btn-bg-hover transition-all duration-200"
+                  ></span>
+                  <span
+                    class="slider__bullet bg-font-color-1 cursor-pointer hover:bg-btn-bg-hover transition-all duration-200"
+                  ></span>
+                  <span
+                    class="slider__bullet bg-font-color-1 cursor-pointer hover:bg-btn-bg-hover transition-all duration-200"
+                  ></span>
+                  <span
+                    class="slider__bullet bg-font-color-1 cursor-pointer hover:bg-btn-bg-hover transition-all duration-200"
+                  ></span>
                 </div>
               </div>
             </div>
@@ -362,6 +418,10 @@
               >Mehr sehen</a
             >
           </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container max-w-[1160px]">
           <form action="" class="form">
             <h4 class="section__title-s">
               Bleiben Sie mit unseren Neuigkeiten auf dem Laufenden
@@ -389,7 +449,7 @@
               <input
                 type="checkbox"
                 id="consense"
-                class="form__checkbox cursor-pointer"
+                class="form__checkbox accent-brand-1 cursor-pointer"
                 name="consense"
                 required
               />
@@ -404,7 +464,7 @@
     <footer class="">
       <div class="container max-w-[1160px]">
         <div
-          class="footer__wrapper mx-auto py-11 px-20 flex justify-between bg-brand-3 text-font-color-2 rounded-tl-[30px] rounded-tr-[30px]"
+          class="footer__wrapper max-w-[1040px] mx-auto py-11 px-20 flex justify-between bg-brand-3 text-font-color-2 rounded-tl-[30px] rounded-tr-[30px]"
         >
           <div class="footer__contacts">
             <h4 class="footer__title text-lg font-bold">Kontact</h4>

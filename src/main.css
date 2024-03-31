@@ -6,7 +6,7 @@
 
 @layer components {
   .header__link {
-    @apply text-font-links text-lg block border-b border-b-[transparent] py-1 px-3 transition-all hover:text-btn-bg-hover;
+    @apply text-font-links text-lg block border-b border-b-[transparent] py-1 px-3 transition-all duration-200   hover:text-btn-bg-hover;
   }
   .header__link_current {
     @apply border-b border-b-font-links pointer-events-none hover:text-font-links;
@@ -24,13 +24,13 @@
     @apply font-text-title text-2xl;
   }
   .slider__btn {
-    @apply w-16 h-16 rounded-full border-2 border-font-color-2 flex justify-center items-center;
+    @apply w-16 h-16 rounded-full border-2 border-font-color-2 flex justify-center items-center hover:border-font-disabled-input transition-all duration-200;
   }
   .slider__bullet {
-    @apply w-1.5 h-1.5 rounded-full bg-font-color-2;
+    @apply w-1.5 h-1.5 rounded-full bg-font-color-2 cursor-pointer hover:bg-font-disabled-input;
   }
   .btn {
-    @apply bg-brand-1 text-font-color-2 rounded border border-font-color-2 py-5 px-24 transition-all hover:bg-btn-bg-hover;
+    @apply bg-brand-1 text-font-color-2 rounded border border-font-color-2 py-5 px-24 transition-all duration-200   hover:bg-btn-bg-hover;
   }
   .see-more-btn {
     @apply text-font-input font-text-title text-4xl block  absolute;
