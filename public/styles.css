@@ -1005,6 +1005,10 @@ video {
   top: -12rem;
 }
 
+.-top-5{
+  top: -1.25rem;
+}
+
 .-top-8{
   top: -2rem;
 }
@@ -1015,10 +1019,6 @@ video {
 
 .bottom-10{
   bottom: 2.5rem;
-}
-
-.bottom-20{
-  bottom: 5rem;
 }
 
 .bottom-4{
@@ -1069,6 +1069,10 @@ video {
   top: 11rem;
 }
 
+.top-\[420px\]{
+  top: 420px;
+}
+
 .top-\[435px\]{
   top: 435px;
 }
@@ -1116,6 +1120,10 @@ video {
 
 .mb-16{
   margin-bottom: 4rem;
+}
+
+.mb-20{
+  margin-bottom: 5rem;
 }
 
 .mb-4{
@@ -1671,6 +1679,11 @@ video {
   padding-bottom: 5rem;
 }
 
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1705,8 +1718,16 @@ video {
   padding-bottom: 8rem;
 }
 
+.pb-36{
+  padding-bottom: 9rem;
+}
+
 .pb-44{
   padding-bottom: 11rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
 }
 
 .pb-52{
@@ -1781,6 +1802,10 @@ video {
   padding-top: 4rem;
 }
 
+.pt-20{
+  padding-top: 5rem;
+}
+
 .pt-24{
   padding-top: 6rem;
 }
@@ -1797,12 +1822,12 @@ video {
   padding-top: 10rem;
 }
 
-.pb-36{
-  padding-bottom: 9rem;
+.pt-8{
+  padding-top: 2rem;
 }
 
-.pt-20{
-  padding-top: 5rem;
+.pt-32{
+  padding-top: 8rem;
 }
 
 .font-text-title{
@@ -1911,9 +1936,24 @@ video {
   left: -10rem;
 }
 
+.before\:left-0::before{
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.before\:top-0::before{
+  content: var(--tw-content);
+  top: 0px;
+}
+
 .before\:z-0::before{
   content: var(--tw-content);
   z-index: 0;
+}
+
+.before\:block::before{
+  content: var(--tw-content);
+  display: block;
 }
 
 .before\:aspect-square::before{
@@ -1921,9 +1961,25 @@ video {
   aspect-ratio: 1 / 1;
 }
 
+.before\:h-\[770px\]::before{
+  content: var(--tw-content);
+  height: 770px;
+}
+
 .before\:w-\[500px\]::before{
   content: var(--tw-content);
   width: 500px;
+}
+
+.before\:w-full::before{
+  content: var(--tw-content);
+  width: 100%;
+}
+
+.before\:bg-brand-4::before{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 222 66 / var(--tw-bg-opacity));
 }
 
 .before\:bg-help::before{
