@@ -3,7 +3,7 @@
 // was: content: ["./index.html"],
 module.exports = {
   content: ["./*.html"],
-  darkMode: "class",
+  darkMode: "media",
   theme: {
     colors: {
       "brand-1": "#782aac",
@@ -25,8 +25,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        "text-main": ["Roboto"],
-        "text-title": ["IBM Plex Mono"],
+        "text-main": ["Roboto, sans-serif"],
+        "text-title": ["IBM Plex Mono, monospace"],
       },
       backgroundImage: {
         hero: "url('../assets/images/home-page/home/start-screen-bg.png')",
@@ -46,6 +46,10 @@ module.exports = {
       },
       radius: {
         "border-radius": "1rem",
+      },
+      boxShadow: {
+        "btn-shadow": "4px 4px 4px 0px rgba(0, 0, 0, 0.3)",
+        "block-shadow": "0px 1px 7px 5px rgba(0, 0, 0, 0.2)",
       },
     },
   },
