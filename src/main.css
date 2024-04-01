@@ -80,4 +80,10 @@
   .text__p {
     @apply mb-7;
   }
+  .accordion__details {
+    @apply border border-font-color-2 rounded cursor-pointer;
+  }
+  .accordion__summary {
+    @apply flex justify-between items-center py-5 px-10 [&::-webkit-details-marker]:hidden relative list-none cursor-pointer focus-visible:outline-none hover:bg-accordion-hover transition-all duration-200;
+  }
 }

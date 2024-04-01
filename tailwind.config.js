@@ -18,6 +18,7 @@ module.exports = {
       "font-disabled-input": "#c7bcd1",
       "btn-bg-hover": "#9932cc",
       "btn-bg-focus": "#62228D",
+      "accordion-hover": "#91db7b",
     },
     container: {
       center: true,
