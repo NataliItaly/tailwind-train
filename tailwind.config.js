@@ -53,6 +53,9 @@ module.exports = {
         "btn-shadow": "4px 4px 4px 0px rgba(0, 0, 0, 0.3)",
         "block-shadow": "0px 1px 7px 5px rgba(0, 0, 0, 0.2)",
       },
+      flexShrink: {
+        10: "10",
+      },
     },
   },
   plugins: [],

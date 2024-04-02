@@ -1194,6 +1194,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
 .mb-6{
   margin-bottom: 1.5rem;
 }
@@ -1222,20 +1226,12 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-auto{
-  margin-top: auto;
-}
-
-.mb-5{
-  margin-bottom: 1.25rem;
-}
-
-.mt-44{
-  margin-top: 11rem;
-}
-
 .mt-48{
   margin-top: 12rem;
+}
+
+.mt-auto{
+  margin-top: auto;
 }
 
 .block{
@@ -1480,8 +1476,16 @@ video {
   max-width: 100%;
 }
 
+.shrink-\[10\]{
+  flex-shrink: 10;
+}
+
 .grow{
   flex-grow: 1;
+}
+
+.grow-\[10\]{
+  flex-grow: 10;
 }
 
 .-translate-x-1\/2{
@@ -1825,6 +1829,11 @@ video {
   padding-right: 2rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-11{
   padding-top: 2.75rem;
   padding-bottom: 2.75rem;
@@ -1863,11 +1872,6 @@ video {
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .pb-0{
@@ -2124,6 +2128,11 @@ video {
   left: -10rem;
 }
 
+.before\:-top-32::before{
+  content: var(--tw-content);
+  top: -8rem;
+}
+
 .before\:left-0::before{
   content: var(--tw-content);
   left: 0px;
@@ -2137,16 +2146,6 @@ video {
 .before\:top-0::before{
   content: var(--tw-content);
   top: 0px;
-}
-
-.before\:-top-28::before{
-  content: var(--tw-content);
-  top: -7rem;
-}
-
-.before\:-top-32::before{
-  content: var(--tw-content);
-  top: -8rem;
 }
 
 .before\:z-0::before{
@@ -2286,11 +2285,6 @@ video {
   height: 660px;
 }
 
-.after\:h-\[500px\]::after{
-  content: var(--tw-content);
-  height: 500px;
-}
-
 .after\:h-full::after{
   content: var(--tw-content);
   height: 100%;
@@ -2306,16 +2300,16 @@ video {
   width: 500px;
 }
 
-.after\:bg-brand-2::after{
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(113 209 84 / var(--tw-bg-opacity));
-}
-
 .after\:bg-brand-1::after{
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(120 42 172 / var(--tw-bg-opacity));
+}
+
+.after\:bg-brand-2::after{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(113 209 84 / var(--tw-bg-opacity));
 }
 
 .after\:bg-success::after{
