@@ -838,7 +838,7 @@ video {
 .design__list-item{
   position: relative;
   z-index: 10;
-  width: 360px;
+  width: 320px;
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1069,6 +1069,10 @@ video {
   left: 3rem;
 }
 
+.left-14{
+  left: 3.5rem;
+}
+
 .left-4{
   left: 1rem;
 }
@@ -1093,6 +1097,10 @@ video {
   top: 0px;
 }
 
+.top-14{
+  top: 3.5rem;
+}
+
 .top-44{
   top: 11rem;
 }
@@ -1109,20 +1117,28 @@ video {
   top: 480px;
 }
 
-.left-10{
-  left: 2.5rem;
+.left-20{
+  left: 5rem;
 }
 
-.top-10{
-  top: 2.5rem;
+.top-6{
+  top: 1.5rem;
 }
 
-.left-14{
-  left: 3.5rem;
+.left-24{
+  left: 6rem;
 }
 
-.top-14{
-  top: 3.5rem;
+.left-\[30\%\]{
+  left: 30%;
+}
+
+.-top-12{
+  top: -3rem;
+}
+
+.-bottom-12{
+  bottom: -3rem;
 }
 
 .z-0{
@@ -1139,6 +1155,10 @@ video {
 
 .z-50{
   z-index: 50;
+}
+
+.col-span-2{
+  grid-column: span 2 / span 2;
 }
 
 .mx-auto{
@@ -1164,6 +1184,10 @@ video {
 
 .mb-10{
   margin-bottom: 2.5rem;
+}
+
+.mb-14{
+  margin-bottom: 3.5rem;
 }
 
 .mb-16{
@@ -1202,8 +1226,20 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-24{
+  margin-top: 6rem;
+}
+
 .mt-auto{
   margin-top: auto;
+}
+
+.mr-10{
+  margin-right: 2.5rem;
+}
+
+.ml-10{
+  margin-left: 2.5rem;
 }
 
 .block{
@@ -1218,8 +1254,16 @@ video {
   display: flex;
 }
 
+.table{
+  display: table;
+}
+
 .grid{
   display: grid;
+}
+
+.aspect-video{
+  aspect-ratio: 16 / 9;
 }
 
 .h-10{
@@ -1392,6 +1436,14 @@ video {
   max-width: 450px;
 }
 
+.max-w-\[460px\]{
+  max-width: 460px;
+}
+
+.max-w-\[500px\]{
+  max-width: 500px;
+}
+
 .max-w-\[560px\]{
   max-width: 560px;
 }
@@ -1406,6 +1458,30 @@ video {
 
 .max-w-\[960px\]{
   max-width: 960px;
+}
+
+.max-w-full{
+  max-width: 100%;
+}
+
+.max-w-\[600px\]{
+  max-width: 600px;
+}
+
+.max-w-\[260px\]{
+  max-width: 260px;
+}
+
+.max-w-\[200px\]{
+  max-width: 200px;
+}
+
+.max-w-\[240px\]{
+  max-width: 240px;
+}
+
+.max-w-\[300px\]{
+  max-width: 300px;
 }
 
 .grow{
@@ -1465,12 +1541,25 @@ video {
   list-style-type: disc;
 }
 
+.columns-2{
+  -moz-columns: 2;
+       columns: 2;
+}
+
+.grid-flow-row{
+  grid-auto-flow: row;
+}
+
 .auto-rows-auto{
   grid-auto-rows: auto;
 }
 
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-4{
+  grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
 .grid-rows-\[auto_1fr_auto\]{
@@ -1543,6 +1632,10 @@ video {
 
 .gap-9{
   gap: 2.25rem;
+}
+
+.gap-12{
+  gap: 3rem;
 }
 
 .overflow-hidden{
@@ -1711,6 +1804,11 @@ video {
   padding-right: 5rem;
 }
 
+.px-24{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1751,6 +1849,11 @@ video {
   padding-bottom: 5rem;
 }
 
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1776,6 +1879,14 @@ video {
 
 .pb-14{
   padding-bottom: 3.5rem;
+}
+
+.pb-16{
+  padding-bottom: 4rem;
+}
+
+.pb-20{
+  padding-bottom: 5rem;
 }
 
 .pb-24{
@@ -1894,16 +2005,12 @@ video {
   padding-top: 8rem;
 }
 
-.pt-8{
-  padding-top: 2rem;
-}
-
-.pb-20{
-  padding-bottom: 5rem;
-}
-
 .pt-36{
   padding-top: 9rem;
+}
+
+.pt-8{
+  padding-top: 2rem;
 }
 
 .font-text-title{
@@ -1942,6 +2049,10 @@ video {
 
 .font-bold{
   font-weight: 700;
+}
+
+.lowercase{
+  text-transform: lowercase;
 }
 
 .tracking-tighter{
@@ -2062,6 +2173,11 @@ video {
   height: 770px;
 }
 
+.before\:h-\[860px\]::before{
+  content: var(--tw-content);
+  height: 860px;
+}
+
 .before\:w-9\/12::before{
   content: var(--tw-content);
   width: 75%;
@@ -2075,6 +2191,12 @@ video {
 .before\:w-full::before{
   content: var(--tw-content);
   width: 100%;
+}
+
+.before\:bg-brand-3::before{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 57 44 / var(--tw-bg-opacity));
 }
 
 .before\:bg-brand-4::before{
@@ -2141,6 +2263,11 @@ video {
 .after\:aspect-square::after{
   content: var(--tw-content);
   aspect-ratio: 1 / 1;
+}
+
+.after\:h-\[660px\]::after{
+  content: var(--tw-content);
+  height: 660px;
 }
 
 .after\:w-2\/3::after{

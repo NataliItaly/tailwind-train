@@ -57,7 +57,7 @@
     @apply flex gap-9 justify-center max-w-[1040px] mt-24 mx-auto relative before:content-[''] before:absolute before:-top-14 before:-left-32 before:-right-32 before:h-36 before:bg-cover before:z-0 after:content-[''] after:absolute after:block after:h-80 after:top-20 after:-right-32 after:-left-32 after:h-80 after:bg-brand-4 after:z-0 after:rounded;
   }
   .design__list-item {
-    @apply bg-font-color-2 w-[360px] px-4 pt-4 pb-20 shadow-2xl rounded-xl relative z-10;
+    @apply bg-font-color-2 w-[320px] px-4 pt-4 pb-20 shadow-2xl rounded-xl relative z-10;
   }
   .design__list-img {
     @apply mb-6 aspect-[3/2];
