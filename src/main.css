@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* * {
+  border: 1px solid green;
+} */
+
 @layer components {
   .header__link {
     @apply text-font-links text-lg block border-b border-b-[transparent] py-1 px-3 transition-all duration-200   hover:text-btn-bg-hover;
