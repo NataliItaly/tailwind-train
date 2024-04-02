@@ -39,7 +39,9 @@ module.exports = {
         success: "url(../assets/images/home-page/success/success-cell-bg.png)",
         help: "url(../assets/images/home-page/help/help-bg.png)",
         memory: "linear-gradient(#71d154 460px, #fff 460px);",
+        "about-parthner": "linear-gradient(#e1392c 460px, #fff 460px);",
         memoryList: "url(../assets/images/home-page/memory/memory-bg.png)",
+        aboutBg: "url(../assets/images/about-page/about-bg.png)",
       },
       writingMode: {
         "writing-mode": "vertical-rl",
