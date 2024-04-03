@@ -42,6 +42,7 @@ module.exports = {
         "about-parthner": "linear-gradient(#e1392c 460px, #fff 460px);",
         memoryList: "url(../assets/images/home-page/memory/memory-bg.png)",
         aboutBg: "url(../assets/images/about-page/about-bg.png)",
+        successBg: "url(../assets/images/success-page/success-hero-bg.jpg)",
       },
       writingMode: {
         "writing-mode": "vertical-rl",
