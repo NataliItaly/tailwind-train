@@ -10,10 +10,16 @@
 
 @layer components {
   .header__link {
-    @apply text-font-links text-lg block border-b border-b-[transparent] py-1 px-3 transition-all duration-200   hover:text-btn-bg-hover;
+    @apply text-font-links text-lg block border-b border-b-[transparent] py-1 px-4 transition-all duration-200   group-hover:text-btn-bg-hover;
   }
   .header__link_current {
-    @apply border-b border-b-font-links pointer-events-none hover:text-font-links;
+    @apply border-b border-b-font-links  hover:text-font-links;
+  }
+  .header__sublink {
+    @apply text-font-links text-sm block border-b border-b-[transparent] py-2 px-2 transition-all duration-200   hover:text-btn-bg-hover;
+  }
+  .header__sublink_current {
+    @apply pointer-events-none;
   }
   .section {
     @apply mb-28;

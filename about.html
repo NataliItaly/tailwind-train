@@ -14,20 +14,67 @@
         class="container mx-auto px-4 max-w-7xl flex justify-between items-center"
       >
         <div class="logo w-44 pt-3">
-          <img src="assets/icons/logo.svg" alt="fokuz logo" class="w-full" />
+          <a href="index.html" class="w-full h-full block"
+            ><img src="assets/icons/logo.svg" alt="fokuz logo" class="w-full"
+          /></a>
         </div>
         <nav>
           <ul class="flex justify-between items-center gap-2">
-            <li>
+            <li class="relative group">
               <a href="#" class="header__link header__link_current"
                 >Da bin ich</a
               >
+              <ul
+                class="bg-font-color-2 absolute left-0 top-[100%] z-10 w-full rounded-b-md shadow-md opacity-0 scale-y-0 origin-top-left transition ease-in-out group-hover:opacity-100 group-hover:scale-y-100"
+              >
+                <li>
+                  <a href="about-me.html" class="header__sublink"
+                    >Ich über mich</a
+                  >
+                </li>
+                <li>
+                  <a href="reviews.html" class="header__sublink"
+                    >Man über mich</a
+                  >
+                </li>
+                <li>
+                  <a href="partners.html" class="header__sublink">Partner</a>
+                </li>
+              </ul>
             </li>
-            <li>
+            <li class="relative group">
               <a href="portfolio.html" class="header__link">Can sein</a>
+              <ul
+                class="bg-font-color-2 absolute left-0 top-[100%] z-10 w-full rounded-b-md shadow-md opacity-0 scale-y-0 origin-top-left transition ease-in-out group-hover:opacity-100 group-hover:scale-y-100"
+              >
+                <li>
+                  <a href="price.html" class="header__sublink">Was kostet</a>
+                </li>
+                <li>
+                  <a href="faq.html" class="header__sublink">Was tun</a>
+                </li>
+                <li>
+                  <a href="announcement.html" class="header__sublink">Mittun</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="#" class="header__link">Erflog</a>
+            <li class="relative group">
+              <a href="success.html" class="header__link">Erflog</a>
+              <ul
+                class="bg-font-color-2 absolute left-0 top-[100%] z-10 w-full rounded-b-md shadow-md opacity-0 scale-y-0 origin-top-left transition ease-in-out group-hover:opacity-100 group-hover:scale-y-100"
+              >
+                <li>
+                  <a href="theatre.html" class="header__sublink"
+                    >Teater machen</a
+                  >
+                </li>
+                <li>
+                  <a href="live.html" class="header__sublink">Lebhafte</a>
+                </li>
+                <li>
+                  <a href="catch.html" class="header__sublink">Erwischt</a>
+                </li>
+              </ul>
             </li>
             <li>
               <a href="#" class="header__link">Tierheimhilife</a>
@@ -566,9 +613,9 @@
             </ul>
           </div>
           <ul class="footer__links">
-            <li><a href="">Da bin ich</a></li>
-            <li><a href="">Can sein</a></li>
-            <li><a href="">Erflog</a></li>
+            <li><a href="about.html">Da bin ich</a></li>
+            <li><a href="portfolio.html">Can sein</a></li>
+            <li><a href="success.html">Erflog</a></li>
             <li><a href="">Tierheimhilife</a></li>
             <li><a href="">Memoiren</a></li>
           </ul>
