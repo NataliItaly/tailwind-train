@@ -43,6 +43,7 @@ module.exports = {
         memoryList: "url(../assets/images/home-page/memory/memory-bg.png)",
         aboutBg: "url(../assets/images/about-page/about-bg.png)",
         successBg: "url(../assets/images/success-page/success-hero-bg.jpg)",
+        thetreBg: "url(../assets/images/theatre-page/theatre-hero-bg.jpg)",
       },
       writingMode: {
         "writing-mode": "vertical-rl",
