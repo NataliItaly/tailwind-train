@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./public/styles.css" />
   </head>
   <body
-    class="dark:bg-slate-800 dark:text-white h-screen grid grid-rows-[auto_1fr_auto] font-main bg-white dark:bg-slate-900 dark:text-slate-200"
+    class="dark:bg-slate-800 dark:text-white h-screen flex flex-col font-main bg-white dark:bg-slate-900 dark:text-slate-200"
   >
     <header class="absolute top-0 left-0 w-full z-20">
       <div
@@ -161,24 +161,28 @@
         </div>
       </div>
     </header>
-    <main class="relative">
-      <a
-        href="https://wa.me/4915773999273"
-        class="call flex w-56 gap-2 absolute z-50 top-[480px] right-5 no-underline text-font-color-1"
-      >
-        <div
-          class="flex flex-col justify-center text-xs bg-font-color-2 px-3 py-2 rounded shadow-2xl transition-all duration-200 hover:scale-105"
-        >
-          Hast Du Fragen? Schreib <br />
-          <span class="font-bold">mir bei WhatsApp!</span>
-        </div>
-        <div class="w-14 h-14">
-          <img src="./assets/icons/call-me.svg" alt="call me" class="w-full" />
-        </div>
-      </a>
+    <main class="relative flex-grow-1">
       <section
         class="mb-28 bg-thetreBg bg-cover bg-center bg-no-repeat pt-32 pb-24 mb-0 relative h-[800px]"
       >
+        <a
+          href="https://wa.me/4915773999273"
+          class="call flex w-56 gap-2 absolute z-50 bottom-24 right-5 no-underline text-font-color-1 group"
+        >
+          <div
+            class="flex flex-col justify-center text-xs bg-font-color-2 px-3 py-2 rounded shadow-2xl transition-all duration-300 group-hover:scale-105"
+          >
+            Hast Du Fragen? Schreib <br />
+            <span class="font-bold">mir bei WhatsApp!</span>
+          </div>
+          <div
+            class="w-14 h-14 transition-all duration-300 text-[#03c03c] group-hover:text-[#08c942]"
+          >
+            <svg class="w-full h-full">
+              <use href="./assets/icons/icons-sprite.svg#call-me"></use>
+            </svg>
+          </div>
+        </a>
         <div class="container bg-no-repeat bg-[left_1.5rem_top] relative">
           <ul
             class="social flex flex-col items-center gap-6 absolute top-0 right-0"
