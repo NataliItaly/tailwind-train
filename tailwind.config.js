@@ -28,6 +28,10 @@ module.exports = {
         "text-main": ["Roboto, sans-serif"],
         "text-title": ["IBM Plex Mono, monospace"],
       },
+      fontSize: {
+        "title-size": "6rem",
+        "title-small-size": "2.5rem",
+      },
       backgroundImage: {
         hero: "url('../assets/images/home-page/home/start-screen-bg.png')",
         /* social1: "url(../assets/icons/social/watsapp.svg)",

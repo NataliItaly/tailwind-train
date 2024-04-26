@@ -9,19 +9,19 @@
 } */
 
 @layer components {
-  .header__link {
+  /* .header__link {
     @apply text-font-links text-lg block border-b border-b-[transparent] py-1 px-4 transition-all duration-200   group-hover:text-btn-bg-hover;
-  }
+  } */
   .header__link_current {
     @apply border-b border-b-font-links  hover:text-font-links;
   }
-  .header__sublink {
+  /* .header__sublink {
     @apply text-font-links text-sm block border-b border-b-[transparent] py-2 px-2 transition-all duration-200   hover:text-btn-bg-hover;
-  }
+  } */
   .header__sublink_current {
     @apply pointer-events-none;
   }
-  .section {
+  /* .section {
     @apply mb-28;
   }
   .section__header {
@@ -29,7 +29,7 @@
   }
   .section__title {
     @apply font-text-title text-8xl mb-4 font-text-title;
-  }
+  } */
   .section__title-s {
     @apply font-text-title text-2xl;
   }
